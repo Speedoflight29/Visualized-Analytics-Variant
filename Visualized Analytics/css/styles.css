@@ -1,0 +1,340 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: Century Gothic;
+ }
+
+header
+{
+  background-image: linear-gradient(rgba(10,0,0,0.5), rgba(10,0,0,0.5)), url("../images/mountainbackground.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.navbar
+{
+	width: 100%;
+	overflow: hidden;
+	height: 70px;
+	line-height: 70px;
+	background: #fff;
+	border-bottom: 2px solid black;
+}
+
+.logo
+{
+	width: 300px;
+	float: left;
+}
+
+.container
+{
+	width: 90%;
+	margin: 0 auto;
+}
+
+.navmenu
+{
+	float: right;
+}
+
+.navmenu li
+{
+	float: left;
+	width: 120px;
+	height: 70px;
+	line-height: 70px;
+	text-align: center;
+	list-style: none;
+}
+
+.navmenu li a
+{
+	color: #000;
+	text-decoration: none;
+	font-family: calibri;
+  text-transform: uppercase;
+	display: block;
+}
+.navmenu li:hover
+{
+	background: #dc3545;
+}
+
+.form-container /* The White Space in the middle of the screen */
+{
+	width:550px;
+  height: auto;
+  padding: 70px 150px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 #000;
+  margin: auto;
+  margin-bottom: 90px;
+}
+
+
+form
+{
+  max-width: 300px;
+}
+
+input {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border: 1px solid #ccc;
+  border-radius: .1875rem;
+  box-sizing: border-box;
+  display: block;
+  font-size: .870rem;
+  margin-bottom: 1rem;
+  padding: .275rem;
+  width: 100%;
+}
+
+input[type="checkbox"] {
+  -webkit-appearance: checkbox;
+     -moz-appearance: checkbox;
+          appearance: checkbox;
+  display: inline-block;
+  width: auto;
+}
+
+input[type="password"] {
+  margin-bottom: 10.rem;
+}
+
+
+input[type="submit"] {
+  background-color: #015294;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  padding: .6rem 1rem;
+}
+
+
+
+label {
+  color: #000;
+  font-size: .999rem;
+}
+
+}
+
+.main
+{
+	max-width: 1200px;
+	margin: auto;
+}
+
+.title
+{
+   text-align:center;
+   padding: 200px;
+
+}
+
+.title h1
+{
+	color: #fff;
+	font-size: 700;
+}
+
+p
+{
+	color: #fff;
+	font-size:;
+}
+
+
+.button
+{
+
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+
+.btn
+{
+	border: 1px solid #fff;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.6s ease;
+}
+
+.btn:hover
+{
+	background-color: #fff;
+	color: #000;
+}
+
+img
+{
+display: block;
+margin: 0 auto;
+max-width:800px;
+max-height:800px;
+}
+
+image
+{
+display: block;
+margin: 0 auto;
+max-width:100px;
+max-height:100px;
+top: 350px;
+left: 690px;
+}
+
+.boxes{
+	width:50%;
+	float:left;
+	}
+#mainDiv{
+		width:50%;
+margin:auto;
+	}
+
+#wrapper {
+    margin-left:auto;
+    margin-right:auto;
+    width:960px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+body
+{
+ margin: 0;
+}
+
+.sidebar
+{
+	position:fixed;
+	width:250px;
+	top:0;
+	left:0;
+	bottom:0;
+	background: #111;
+	padding-top: 50px;
+}
+
+.sidebar h1{
+	display: block;
+	padding:10px 20px;
+	color: #fff;
+	text-decoration:none;
+	font-family:"Rubik"
+	letter-spacing:2px;
+	font-weight:400;
+	margin:0;
+	font-size:25px;
+	text-transform:uppercase;
+}
+
+.sidebar a{
+   display: block;
+   padding: 10px 20px;
+   color: #bbb;
+   text-decoration: none;
+   font-family: "Rubik";
+   letter-spacing: 2px;
+
+}
+
+.sidebar a:hover{
+   color: #fff;
+   margin-left: 20px;
+   transition: 0.4s;
+}
+
+.pricing-table
+{
+	max-width: 1200px;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	flex-wrap;
+}
+
+.col
+{
+	flex: 25%;
+	padding: 10px;
+	max-width: 320px;
+	box-sizing: border-box;
+}
+
+.table
+{
+	background: #fff;
+	padding: 40px 20px;
+	font-family: "montserrat", sans-serif;
+	position: relative;
+	overflow: hidden;
+	box-shadow: 0 0 10px #00000070;
+}
+
+.table h2
+{
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+.price
+{
+	font-size: 40px;
+	margin-botton: 20px;
+}
+
+.price span
+{
+	display: block;
+	font-size: 14px;
+}
+
+
+.table a
+{
+	text-decoration: none;
+	color: #2c3e50;
+	border: 2px solid #2c3e50;
+	display: block;
+	padding: 20px 4px;
+	margin: 20px 0;
+	border-radius: 40px;
+ /* text-transform: uppercase; */
+	font-size: 20px;
+	transition: 0.5s linear;
+}
+
+
+.table a:active
+{
+	background: #2c3e50;
+	color: #fff;
+}
+
+
+@media screen and (max-width:980px)
+{
+	.col
+	{
+		flex: 50%;
+	}
+}
+@media screen and (max-width:700px)
+{
+	.col
+	{
+		flex: 100%;
+	}
+}

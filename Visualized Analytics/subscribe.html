@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<title>VISUALIZED ANALYTICS</title>
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+
+</head>
+
+
+<body>
+<header>
+
+	<div class="navbar">
+		<div class= "container">
+
+		<div class="logo_div">
+			<a href="index.html">
+	<img src="images/visualizedanalytics.png" class="logo">
+	</div>
+	    <h2></h2>
+			<ul class= "navmenu">
+					 <li><a href="login.html">Login</a></li>
+					 <li><a href="subscribe.html">Subscribe</a></li>
+		 </ul>
+	</div>
+	</div>
+	</div>
+
+  <div class="title">
+	<div class="form-container">
+  <h3> CHOOSE YOUR PRICING BELOW</h3>
+
+  <div class="pricing-table">
+
+	<div class="col">
+  <div class="table">
+		<h2>ONE DAY</h2>
+		<div class="price">
+			$30
+		</div>
+		<button type="submit" id="submit_button1" disabled><a href="#" id=submit_link1> Subscribe</a></button>
+
+	</div>
+	</div>
+	<!-- disabled onsubmit: window.location = "register.html"> -->
+
+	<div class="col">
+	<div class="table">
+		<h2>QUARTER</h2>
+		<div class="price">
+			$90
+		</div>
+		<button type="submit" id="submit_button2" disabled><a href="#" id=submit_link2> Subscribe</a></button>
+	</div>
+	</div>
+
+	  <div class="col">
+	  <div class="table">
+		<h2>ONE YEAR</h2>
+		<div class="price">
+			$290
+		</div>
+		<button type="submit" id="submit_button3" disabled><a href="#" id=submit_link3> Subscribe</a></button>
+	</div>
+
+	</div>
+
+</div>
+    <br></br>
+			<input type="checkbox" value="accepted" id="accept" onclick="terms_checked()">
+			<label for="accept"><font size="4">I HAVE READ AND ACCEPT <a href="termsofuse.html"> TERMS OF USE.</label>
+
+		</div>
+
+  </div>
+
+
+<script>
+//JavaScript function that enables or disables a submit button depending
+//on whether a checkbox has been ticked or not.
+
+function terms_checked() {
+	
+    if (document.getElementById("accept").checked) {
+        //Set the disabled property to FALSE and enable the button.
+        document.getElementById("submit_button1").disabled = false;
+		document.getElementById("submit_button2").disabled = false;
+		document.getElementById("submit_button3").disabled = false;
+		document.getElementById("submit_link1").href = "register.html";
+		document.getElementById("submit_link2").href = "register.html";
+		document.getElementById("submit_link3").href = "register.html";
+
+    }
+	else {
+        //Otherwise, disable the submit button.
+        document.getElementById("submit_button1").disabled = true;
+		document.getElementById("submit_button2").disabled = true;
+		document.getElementById("submit_button3").disabled = true;
+		document.getElementById("submit_link1").href = "#";
+		document.getElementById("submit_link2").href = "#";
+		document.getElementById("submit_link3").href = "#";
+    }
+
+
+}
+
+function x()
+{
+   document.getElementById("submit_button1").addEventListener("click", function()
+	 {
+		 window.location = "register.html";
+	 })
+}
+
+</script>
+</body>
+</html>
