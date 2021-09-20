@@ -1,5 +1,5 @@
 # Visualized-Analytics-Variant
-This project is an imitation of a website, www.visualizedanalytics.com, where I focused on the redesigning of the webpages of the visualized analytics website based on my knowledge and skills.
+This project is an imitation of a website, www.visualizedanalytics.com, where I focused on the redesigning of the webpages of the visualized analytics website with the help of my knowledge, resources, and skills.
 
 The project consists of the following: 
 - A home page (where it shows the title, and the button "Get Started" )
