@@ -14,4 +14,4 @@ With an account, and a subscription plan, you can have access to updated informa
 But I only focused on the design aspect of it. 
 
 You can login by typing your Email and Password, or you can reset your password if you forgot it.
-You can subscribe by picking a subscription plan from the three options displayed, and the buttons will enable when you click on the checkbox that prints "I have read and accept", and once you click on one of the buttons, it will take you to the register page, where you register for an account. You register by entering your name, Email, Password, and confirm password. 
+You can subscribe by picking a subscription plan from the three options displayed, and the buttons will enable when you click on the checkbox that prints "I have read and accept"; and once you click on one of the buttons, it will take you to the register page, where you register for an account. You can register by entering your name, Email, Password, and confirm your password. 
